@@ -1,0 +1,19 @@
+nav{
+    background-color: $color-secundario;
+
+    .logo_2 {
+        width: 120px;
+        height: 60px;
+        border-radius: 20px;
+    }
+    
+}
+
+.hero{
+    background-image:url(../img/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    max-width: 100%;
+    height: 60vh;
+}

@@ -1,0 +1,45 @@
+@import "variables";
+@import "header";
+@import "body";
+@import "footer";
+@import "mediaqueries";
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+
+    body{
+        background-color: $color-primario;
+        color: white;
+    }
+
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    
+    h2, h3 {
+        font-weight: bold;
+        color: $color-secundario;
+        text-align: center;
+    
+    }
+    
+    h1{ 
+        color: $color-tercero;
+        text-align: center;
+        font-size: 50px;
+    }
+    
+    ul{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+}
