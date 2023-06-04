@@ -129,7 +129,7 @@ nav .logo_2 {
   border: #272229 solid 2px;
 }
 .contenedor_1 .texto {
-  margin: auto;
+  margin: auto auto 20px;
   width: 80%;
 }
 
@@ -231,9 +231,6 @@ iframe {
     width: 100px;
     height: 50px;
   }
-  .sub_1 {
-    font-size: 20px;
-  }
   .intro {
     margin: 0 20px 30px;
   }
@@ -259,10 +256,6 @@ iframe {
     margin: 20px auto;
     padding: 10px 10px;
   }
-  .servicios .servicios_1 .sub_2 {
-    font-size: 20px;
-    text-align: center;
-  }
   .servicios .servicios_1 .division {
     width: 150px;
     height: 150px;
@@ -285,7 +278,10 @@ iframe {
     margin: 50px 0;
   }
   footer {
-    font-size: 10px;
+    font-size: 15px;
+  }
+  footer h3 {
+    font-size: 25px;
   }
   .redes_lista {
     line-height: 20px;
