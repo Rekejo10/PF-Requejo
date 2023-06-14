@@ -1,3 +1,20 @@
 $color-primario:#6f737e;
 $color-secundario:#6b456c;
 $color-tercero:#272229;
+
+@mixin imagen{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+@mixin bordes ($radio){
+    border-radius: $radio;
+    border: $color-tercero solid 2px;
+}
+
+@mixin imagen_redes{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}

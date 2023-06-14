@@ -125,6 +125,7 @@ nav .logo_2 {
 .contenedor_1 .contenedor_2 .imagenes {
   height: 100%;
   width: 100%;
+  object-fit: cover;
   border-radius: 20px;
   border: #272229 solid 2px;
 }
@@ -171,13 +172,13 @@ nav .logo_2 {
   background-color: #6b456c;
   color: white;
   padding: 20px 20px;
-  border-radius: 10px;
   font-size: 20px;
   text-decoration: none;
   font-weight: 700;
   text-transform: uppercase;
   text-align: center;
-  border: #6f737e solid 2px;
+  border-radius: 10px;
+  border: #272229 solid 2px;
 }
 .formulario .enviar .boton :hover {
   cursor: pointer;
@@ -244,6 +245,8 @@ iframe {
     margin-bottom: 20px;
   }
   .intro_1 .presentacion {
+    width: 350px;
+    height: 200px;
     margin-bottom: 20px;
   }
   .servicios {
@@ -252,24 +255,13 @@ iframe {
     align-content: space-evenly;
   }
   .servicios .servicios_1 {
-    border-radius: 100%;
     margin: 20px auto;
-    padding: 10px 10px;
-  }
-  .servicios .servicios_1 .division {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    border: #272229 solid 2px;
-    display: flex;
-    justify-content: center;
-  }
-  .servicios .servicios_1 .division .servicios_2 {
-    width: 100px;
-    height: 100px;
   }
   .contenedor_1 {
     margin: 0 2% 50px;
+  }
+  .contenedor_1 .contenedor_2 {
+    width: 70%;
   }
   .texto {
     width: 100%;
@@ -284,7 +276,7 @@ iframe {
     font-size: 25px;
   }
   .redes_lista {
-    line-height: 20px;
+    line-height: 25px;
   }
   .redes_img {
     width: 20px;
@@ -308,6 +300,22 @@ iframe {
   .presentacion {
     width: 310px;
     height: 180px;
+  }
+  .servicios_1 {
+    border-radius: 100%;
+    padding: 10px 10px;
+  }
+  .servicios_1 .division {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: #272229 solid 2px;
+    display: flex;
+    justify-content: center;
+  }
+  .servicios_1 .division .servicios_2 {
+    width: 100px;
+    height: 100px;
   }
   .contenedor {
     padding: 20px 0;

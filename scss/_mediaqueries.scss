@@ -29,6 +29,8 @@
         }
 
         .presentacion{
+            width: 350px;
+            height: 200px;
             margin-bottom: 20px;
         }
     }
@@ -39,28 +41,16 @@
         align-content: space-evenly;
 
         .servicios_1{
-            border-radius: 100%;
             margin: 20px auto;
-            padding: 10px 10px;
-
-            .division{
-                width: 150px;
-                height: 150px;
-                border-radius: 50%;
-                border: $color-tercero solid 2px;
-                display: flex;
-                justify-content: center;
-    
-                .servicios_2{
-                    width: 100px;
-                    height: 100px;
-                }
-            }
         }
+
     }
 
     .contenedor_1 {
         margin: 0 2% 50px;
+        .contenedor_2{
+            width: 70%;
+        }
     }
 
     .texto {
@@ -79,7 +69,7 @@
     }
     
     .redes_lista{
-        line-height: 20px;
+        line-height: 25px;
     }
 
     .redes_img{
@@ -110,6 +100,25 @@
     .presentacion{
         width: 310px;
         height: 180px;
+    }
+
+    .servicios_1{
+        border-radius: 100%;
+        padding: 10px 10px;
+
+        .division{
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: $color-tercero solid 2px;
+            display: flex;
+            justify-content: center;
+
+            .servicios_2{
+                width: 100px;
+                height: 100px;
+            }
+        }
     }
 
     .contenedor{

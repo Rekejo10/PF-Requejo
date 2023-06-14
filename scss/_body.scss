@@ -1,7 +1,5 @@
 .redes_img{
-    width: 30px;
-    height: 30px;
-    margin-right: 10px;
+    @include imagen_redes;
 }
 
 .intro{
@@ -30,8 +28,7 @@
     grid-area:video;
     width: 490px; 
     height: 280px;
-    border-radius: 10px;
-    border: $color-tercero solid 2px;
+    @include bordes(10px);
 }
 
 .sub_1{
@@ -97,8 +94,7 @@
         text-align: center;
         color:$color-tercero;
         background-color: $color-secundario;
-        border-radius: 10px;
-        border: $color-tercero solid 2px;
+        @include bordes(10px);
     }
 
 }
@@ -113,10 +109,8 @@
         margin-bottom: 20px;
 
         .imagenes{
-            height: 100%;
-            width: 100%;
-            border-radius: 20px;
-            border: $color-tercero solid 2px;
+            @include imagen;
+            @include bordes (20px);
         }
     }
 
@@ -174,13 +168,12 @@
             background-color: $color-secundario;
             color: white;
             padding: 20px 20px;
-            border-radius: 10px;
             font-size: 20px;
             text-decoration: none;
             font-weight: 700;
             text-transform: uppercase;
             text-align: center;
-            border: $color-primario solid 2px;
+            @include bordes(10px);
 
             :hover{
                 cursor: pointer;
