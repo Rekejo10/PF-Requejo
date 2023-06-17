@@ -16,12 +16,12 @@ html{
 
     body{
         background-color: $color-primario;
-        color: white;
+        color: $color-blanco;
     }
 
     a{
         text-decoration: none;
-        color: white;
+        color: $color-blanco;
     }
     
     h2, h3 {

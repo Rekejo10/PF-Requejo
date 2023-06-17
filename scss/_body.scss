@@ -38,7 +38,7 @@
 }
 
 .cont{
-    color: white;
+    color: $color-blanco;
     background-color: $color-tercero;
     padding: 30px 0;
     margin-bottom: 50px;
@@ -105,7 +105,7 @@
     .contenedor_2{
         margin: auto;
         width: 60%;
-        height: 350px;
+        height: 450px;
         margin-bottom: 20px;
 
         .imagenes{
@@ -131,7 +131,7 @@
     }
     
     legend {
-        color: white;
+        color: $color-blanco;
         text-transform: uppercase;
         text-align: center;
         margin-bottom: 30px;
@@ -141,7 +141,7 @@
         margin-bottom: 20px;
     
         label {
-            color: white;
+            color: $color-blanco;
             text-transform: uppercase;
             font-weight: 700;
             margin-bottom: 20px;
@@ -166,7 +166,7 @@
         .boton {
             width: 100%;
             background-color: $color-secundario;
-            color: white;
+            color: $color-blanco;
             padding: 20px 20px;
             font-size: 20px;
             text-decoration: none;
