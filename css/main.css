@@ -118,7 +118,7 @@ nav .logo_2 {
 }
 .contenedor_1 .contenedor_2 {
   margin: auto;
-  width: 60%;
+  width: 80%;
   height: 450px;
   margin-bottom: 20px;
 }
@@ -206,6 +206,11 @@ nav .logo_2 {
   line-height: 33px;
 }
 
+.mapa {
+  display: flex;
+  justify-content: center;
+}
+
 iframe {
   width: 350px;
   height: 200px;
@@ -283,7 +288,7 @@ iframe {
     height: 20px;
   }
 }
-@media (max-width: 390px) {
+@media (max-width: 414px) {
   h1 {
     font-size: 40px;
     margin-bottom: 10px;
@@ -332,7 +337,7 @@ iframe {
   }
   .contenedor .contenedor_1 .contenedor_2 {
     width: 90%;
-    height: 200px;
+    height: 300px;
   }
   .contenedor .contenedor_1 .contenedor_2 h2 {
     width: 100%;
